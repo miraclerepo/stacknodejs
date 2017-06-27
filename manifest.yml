@@ -1,5 +1,4 @@
----
-applications:
- - name: substack
-   random-route: true
-   memory: 256M
+language: node_js
+node_js:
+  - "6"
+ 
