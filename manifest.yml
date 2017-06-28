@@ -1,6 +1,7 @@
----
 applications:
-- name: cf-nodejs
- memory: 512M
- instances: 1
- random-route: true
+- path: .
+  memory: 256M
+  instances: 1
+  name: substack
+  host: substack
+  disk_quota: 1024M
